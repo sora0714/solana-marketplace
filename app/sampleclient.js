@@ -18,7 +18,6 @@ let account;
 let agreementBalance, payerBeforeBalance, payerAfterBalance;
 
 
-
 async function main() {
 	// // #region main
 	// // Read the generated IDL.
