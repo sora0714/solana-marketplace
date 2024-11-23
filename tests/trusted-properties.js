@@ -4,7 +4,6 @@ const { TOKEN_PROGRAM_ID } = require("@solana/spl-token");
 
 const { PublicKey, SystemProgram, SYSVAR_RENT_PUBKEY } = anchor.web3;
 
-
 describe("trusted-properties", () => {
 
 	// Use a local provider.
