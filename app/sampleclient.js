@@ -6,7 +6,6 @@ const { PublicKey, SystemProgram, SYSVAR_RENT_PUBKEY } = anchor.web3;
 // It is not expected users directly test with this example. For a more
 // ergonomic example, see `tests/trusted-properties.js` in this workspace.
 
-
 // Use a local cluster as provider.
 const provider = anchor.Provider.local();
 
@@ -16,7 +15,6 @@ anchor.setProvider(provider);
 const program = anchor.workspace.TrustedProperties;
 let account;
 let agreementBalance, payerBeforeBalance, payerAfterBalance;
-
 
 async function main() {
 	// // #region main
@@ -32,8 +30,6 @@ async function main() {
 	// // Execute the RPC.
 	// await program.rpc.initialize();
 	// // #endregion main
-
-
 
 	// ============== CREATE CONTRACT =====================================
 
